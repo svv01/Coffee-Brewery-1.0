@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Coffee Survey</title>
+<link href="styles.css" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<header>
+
+<h1>All About Coffee</h1> 
+
+<nav>
+<ul>
+<li><a href="index.html">home</a></li>
+<li><a href="brewing.html">brewing</a></li>
+<li><a href="grinding.html">grinding</a></li>
+<li><a href="roasting.html">roasting</a></li>
+<li><a href="drinks.html">drinks</a></li>
+<li><a href="survey.html"> coffee survey</a></li>
+</ul>
+</nav>
+
+</header>
+
+
+<h1>Coffee Survey</h1>
+<aside>
+<figure>
+
+ <img src="images/espresso.jpg" alt="a cup of espresso"/>
+ 
+</figure>
+</aside>
+
+<form action="coffee-survey.php" method="post">
+<fieldset>
+<legend>Personal Information:</legend>
+
+Your Name<br/>
+<input type="Email" name="name" autofocus required size="40"/>
+<br/>
+
+Email Address<br/>
+<input type="text" name="Email" placeholder="enter a valid email id"  required size="40"/><br/>
+
+</fieldset>
+
+<fieldset>
+<legend>Your Coffee Preferences:</legend>
+Tell us your coffee preparation methods.<br/>
+<textarea name="preparation" cols="40" rows="6" ></textarea>
+<br/><br/>
+
+Do you grind your own beans?<br/>
+<input class="checks" type="radio" name="grind" value="yes"/>yes<br/>
+<input class="checks" type="radio" name="grind" value="no"/>no<br/><br/>
+
+How do you drink your coffee?><br/>
+<input class="checks" type="checkbox" name="drink" value="sugar"/>with sugar<br/> 
+<input class="checks" type="checkbox" name="drink" value="cream"/>with cream<br/>
+<br/>
+<br/>
+
+What is your favorite coffee drink?<br/>
+
+<select name="favorite" id="dropdown">
+<option value="">please select a drink</option>
+<option value="drip Coffee">drip coffee</option>
+<option value="french press">french press</option>
+<option value="esspresso">esspresso</option>
+<option value="latte">latte</option>
+<option value="flavored">flavored</option>
+</select>
+
+</fieldset>
+</form>
+<footer>
+
+<nav>
+<ul>
+<li><a href="index.html">home</a></li>
+<li><a href="brewing.html">brewing</a></li>
+<li><a href="grinding.html">grinding</a></li>
+<li><a href="roasting.html">roasting</a></li>
+<li><a href="drinks.html">drinks</a></li>
+<li><a href="survey.html"> coffee survey</a></li>
+</ul>
+</nav>
+
+</footer>
+
+</body>
+</html>
